@@ -3,7 +3,7 @@ data.each_with_object ({}) do |(key,hash), info|
   hash.each do |value, names|
     names.each do |name|
       info[name] ||={}
-      info[name][key]
+      info[name][key] || = 
 end
 end
 end
