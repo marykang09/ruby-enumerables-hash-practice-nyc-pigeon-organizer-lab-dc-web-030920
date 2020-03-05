@@ -4,7 +4,8 @@ data.each_with_object ({}) do |(key,hash), info|
     names.each do |name|
       info[name] ||={}
       info[name][key] || = []
-      info[name][key] << value.to_s
+      info[name][key] << value.
+    end
 end
 end
 end
